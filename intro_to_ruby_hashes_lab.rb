@@ -28,7 +28,7 @@ end
 
 def read_from_hash(hash, key)
   read_from_hash {
-  key[:name]
+  hash[:name]
   }
   # return the correct value using the hash and key parameters
 end
